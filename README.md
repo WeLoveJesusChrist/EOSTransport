@@ -20,17 +20,18 @@ For a quick tutorial on how  to get set up, feel free to follow this
 You'll need these keys to access the Services!  If you have them already, then ignore this step
 1. Login to the [Epic Games Dev Portal](https://dev.epicgames.com/portal) with an Epic Games Account
 2. Create a new Product
-3. Go to Product Settings -> Clients and add a new Client Policy
-4. Name your Client Policy and set the Client Policy Type to Peer2Peer, then Save & Exit
-5. Add a new Client
-6. Name your Client and set the Client Policy to the Client Policy you just created, then Save & Exit
-7. Go to Epic Account Services -> Configure Application
-8. Set Application Name to what you want your users to see when signing in with the Account Portal, then Save Draft
-9. Go to Permissions and set all permissions to Required, then Save
-10. Go to Clients and set the Client to the Client you just created, then Save
-11. Go back, then click Back to Organization
-12. Go to SDK -> SDK Credentials -> Get Credentials
-13. Copy and paste all of your credentials into the EOS API Key Asset once your project is set up
+3. Go to Product Settings -> Scroll down to clients -> Add a new Client
+4. Add a new Client Policy -> Name your Client Policy -> Set the Client Policy Type to Peer2Peer, then Save & Exit
+5. Add a new Client -> Name your Client -> Set the Client Policy to the Client Policy you just created, then Save & Exit
+6. Go to Epic Online Services -> Account Social -> Epic Account Service -> Create Application
+  - Brand Settings
+    - Set Application Name
+    - Set 64x64 or 128x128 Application Logo
+    - (This step doesn't work for me 2026-03-20... doesn't allow me to save)
+  - Permissions -> Select which one you like (or just set to all) -> Save changes
+  - Linked clients -> Select client -> Save changes
+7. Go to "Project Settings" 
+8. Copy and paste all of your credentials into the EOS API Key Asset once your project is set up
 
 ## 2. Installation
 1. Install Mirror into your project
