@@ -30,8 +30,10 @@ You'll need these keys to access the Services!  If you have them already, then i
     - (This step doesn't work for me 2026-03-20... doesn't allow me to save)
   - Permissions -> Select which one you like (or just set to all) -> Save changes
   - Linked clients -> Select client -> Save changes
-7. Go to "Project Settings" 
+7. Go to "Project Settings" -> Scroll down to your IDs
 8. Copy and paste all of your credentials into the EOS API Key Asset once your project is set up
+  - Use the "LIVE" sandbox and deployment IDs
+  - Do NOT use the DEV or STAGE!  It will NOT work
 
 ## 2. Installation
 1. Install Mirror into your project
